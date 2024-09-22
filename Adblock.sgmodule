@@ -2,7 +2,7 @@
 #!desc=融合版[由GithubAction自动更新]，包括墨鱼去开屏2.0、喜马拉雅、哔哩哔哩、微博、KEEP、知乎、百度网盘、百度贴吧、高德地图、小红书、网易云、什么值得买、菜鸟、彩云天气、豆瓣网页
 #!author=ddgksf2013
 #!contributor=@blackmatrix7, @app2smile
-#!logtime=2024-09-21 20:00:38
+#!logtime=2024-09-22 08:36:12
 #!homepage=https://github.com/ddgksf2013
 #!tgchannel=https://t.me/ddgksf2021
 #!moduleurl=https://github.com/ddgksf2013/Modules/raw/main/Adblock.sgmodule
@@ -20,8 +20,9 @@ RULE-SET,https://raw.githubusercontent.com/app2smile/rules/master/rule/tieba-ad.
 
 [URL Rewrite]
 
-^https?:\/\/2024.09.18/c341/v2.0.527 - reject
+^https?:\/\/2024.09.21/c342/v2.0.528 - reject
 ^http:\/\/.*babytree\.com/(plough\.do|go_search\/api\/mobile_search_new\/get_multi_search_default_keywords) - reject
+^http:\/\/ads.?s?ervice(retry)?\.(kugou|kglink).(com|cn)\/v\d\/ - reject
 ^http:\/\/app\.api\.d3yuiw4\.com\/api\/app\/ad - reject
 ^http:\/\/gateway2\.etnet\.com\.hk\/etnetApp\/theme\/seasonal\/v30\/theme.json - reject
 ^http:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend - reject
@@ -461,8 +462,6 @@ https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNot
 [Map Local]
 
 ^https?:\/\/ap\.dongqiudi\.com\/plat\/v4 data="https://raw.githubusercontent.com/ddgksf2013/Scripts/master/dongqiudi.js" header="Content-Type: text/json"
-^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*a=get_searching_info data="https://github.com/ddgksf2013/Scripts/raw/master/weibo_search_info.json" header="Content-Type: text/html"
-^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=search_topic data="https://github.com/ddgksf2013/Scripts/raw/master/weibo_search_topic.json" header="Content-Type: text/html"
 
 [Script]
 
@@ -565,6 +564,8 @@ weibo_json.js =type=http-response, pattern=^https?:\/\/weibointl\.api\.weibo\.c(
 weibo_json.js =type=http-response, pattern=^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=open_app, script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, max-size=-1, timeout=60
 weibo_json.js =type=http-response, pattern=^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=search_topic, script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, max-size=-1, timeout=60
 weibo_json.js =type=http-response, pattern=^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=user_center, script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, max-size=-1, timeout=60
+weibo_search_info.json =type=http-response, pattern=^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*a=get_searching_info, script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_search_info.json, requires-body=true, max-size=-1, timeout=60
+weibo_search_topic.json =type=http-response, pattern=^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=search_topic, script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_search_topic.json, requires-body=true, max-size=-1, timeout=60
 weixin110.js =type=http-response, pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weixin110.js, requires-body=true, max-size=-1, timeout=60
 zheye.min.js =type=http-request, pattern=^https?:\/\/api\.zhihu\.com\/feed-root\/block, script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js, requires-body=true, max-size=-1, timeout=60
 zheye.min.js =type=http-request, pattern=^https?:\/\/api\.zhihu\.com\/feed\/render\/tab\/config, script-path=https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js, requires-body=true, max-size=-1, timeout=60

@@ -29,13 +29,13 @@ def rewrite_to_sgmodule(js_content, project_name):
     timestamp = beijing_time.strftime("%Y-%m-%d %H:%M:%S")
     # Generate sgmodule content
     sgmodule_content = f"""#!name={project_name}
-#!desc=融合版[由GithubAction自动更新]，包括墨鱼去开屏2.0、喜马拉雅、哔哩哔哩、微博、KEEP、知乎、百度网盘、百度贴吧、高德地图、小红书、网易云、什么值得买、菜鸟、彩云天气、豆瓣网页
-#!author=ddgksf2013
-#!contributor=@blackmatrix7, @app2smile
+#!desc=融合版[由GithubAction自动更新]
+#!author=fantasyxby
+#!contributor=@fantasyxby
 #!logtime={timestamp}
-#!homepage=https://github.com/ddgksf2013
-#!tgchannel=https://t.me/ddgksf2021
-#!moduleurl=https://github.com/ddgksf2013/Modules/raw/main/Adblock.sgmodule
+#!homepage=https://github.com/fantasyxby
+#!tgchannel=https://t.me/
+#!moduleurl=https://github.com/ddgksf2013/fantasyxby/raw/main/Adblock.sgmodule
 
 
 

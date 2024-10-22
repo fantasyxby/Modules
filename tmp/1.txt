@@ -8,4 +8,3 @@ https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/SmzdmAds.con
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Html/Douban.conf
 https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Cainiao.conf
 https://raw.githubusercontent.com/ddgksf2013/Scripts/master/coolapk.js
-https://github.com/app2smile/rules/raw/master/module/tieba-qx.conf

@@ -6,5 +6,6 @@ https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Amap.conf
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/XiaoHongShu.conf
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/SmzdmAds.conf
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Html/Douban.conf
-https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.adblock.js
 https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Cainiao.conf
+https://raw.githubusercontent.com/ddgksf2013/Scripts/master/coolapk.js
+https://github.com/app2smile/rules/raw/master/module/tieba-qx.conf

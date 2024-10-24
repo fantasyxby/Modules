@@ -2,7 +2,7 @@
 #!desc=融合版[由GithubAction自动更新]
 #!author=fantasyxby
 #!contributor=@fantasyxby
-#!logtime=2024-10-24 08:33:33
+#!logtime=2024-10-24 20:00:38
 #!homepage=https://github.com/fantasyxby
 #!tgchannel=https://t.me/
 #!moduleurl=https://github.com/ddgksf2013/fantasyxby/raw/main/Adblock.sgmodule
@@ -291,6 +291,7 @@ RULE-SET,https://raw.githubusercontent.com/app2smile/rules/master/rule/tieba-ad.
 ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.show - reject
 ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.nbmensa\.research\.researchservice\.consultmerge - reject
 ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.fc\.resource\.tacdata\.get - reject
+^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.wireless\.home\.splash\.awesome\.get - reject
 ^https?:\/\/gw.aihuishou.com\/app-portal\/home\/getadvertisement - reject
 ^https?:\/\/gw\.kaola\.com\/gw\/dgmobile\/newOpenAd - reject
 ^https?:\/\/gx\.10086\.cn\/zt-portal\/gxhzg\/portal\/app\/api\/v - reject
